@@ -1,4 +1,4 @@
 # World Cup 2022 Prediction
 
-Step 1: change directory into the folder
-Step 2: run "npm run dev" to run project in browser
+1. Step 1: Change directory into the folder.
+2. Step 2: Run "npm run dev" in terminal to run project in browser.
