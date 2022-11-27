@@ -13,9 +13,10 @@ export const Main = () => {
           dolor voluptate eligendi rerum!
         </p>
 
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi,
-          provident.
+        <p className="mt-5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptates
+          possimus iusto vero voluptatem doloribus minima officiis non ullam et
+          facere aut aliquid accusantium ipsa, cupiditate repellendus reiciendis
         </p>
       </div>
     </main>
