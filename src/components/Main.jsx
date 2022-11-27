@@ -12,6 +12,11 @@ export const Main = () => {
           tenetur incidunt ratione sequi, fugit magnam illum itaque ipsa sint
           dolor voluptate eligendi rerum!
         </p>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi,
+          provident.
+        </p>
       </div>
     </main>
   );
