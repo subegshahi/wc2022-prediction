@@ -11,7 +11,7 @@ export const Header = () => {
 
         <div className="space-x-10">
           <a className="font-semibold tracking-wide " href="#">
-            Home
+            Homesss
           </a>
           <a className="font-semibold tracking-wide " href="#">
             Fixtures
