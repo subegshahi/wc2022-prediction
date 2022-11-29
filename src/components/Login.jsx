@@ -1,16 +1,22 @@
 import React from "react";
+import worldCup from "../assets/icons/world-cup.svg";
 
 export const Login = () => {
   return (
     <section className="text-gray-800 ">
-      <div className="continer mx-auto px-5">
+      <div className="container mx-auto px-5">
         <div className="border rounded-lg p-10 mt-24">
-          <div className=" flex flex-col items-center">
-            <h1 className="font-semibold text-4xl">Welcome back</h1>
+          <div className="flex flex-col items-center">
+            <img className="w-40" src={worldCup} alt="" />
 
-            <h2 className="text-lg text-gray-400 mt-2">
-              Welcome back! Please enter your details
-            </h2>
+            <div className="mt-5">
+              <h1 className="font-semibold text-4xl text-center">
+                Welcome back
+              </h1>
+              <h2 className="text-lg text-gray-400 mt-2">
+                Welcome back! Please enter your details
+              </h2>
+            </div>
           </div>
 
           <form className="mt-10" action="">

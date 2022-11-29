@@ -4,7 +4,6 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Configure your color palette here
         primary: { 500: "#BE414B", 400: "#c4545d" },
       },
     },
