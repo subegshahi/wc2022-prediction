@@ -13,21 +13,11 @@ export const Main = () => {
           dolor voluptate eligendi rerum!This is new line
         </p>
 
-        <p>
-          Asdasasdakjsdbkasdasjdbaksdjbaksjdbaksdbkajsdbakjsbdkajsbdkajsdbakjd
-          kbasdjbkajskdakjsdbakjsdbakjsdbkajsdbkajsbdkajsdbkajsbdkajsbdkajsbda
-          sfasdasdasdasdasdasdasdadaadadadaasdasdasdasdasdaasdasdasdasdasadsas
-          adasdasdasdasdasdasdasdasdasdasdasdajfasfiaisfhiiahoshoiasfhaioiafhoa
-          this is new line again????????????????????????????????????????????/
-        </p>
-
         <p className="mt-5">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptates
           possimus iusto vero voluptatem doloribus minima officiis non ullam et
           facere aut aliquid accusantium ipsa, cupiditate repellendus reiciendis
         </p>
-
-        <p>text from subeg</p>
       </div>
     </main>
   );
