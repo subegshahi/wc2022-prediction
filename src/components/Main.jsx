@@ -18,6 +18,8 @@ export const Main = () => {
           possimus iusto vero voluptatem doloribus minima officiis non ullam et
           facere aut aliquid accusantium ipsa, cupiditate repellendus reiciendis
         </p>
+
+        <p>text from subeg</p>
       </div>
     </main>
   );
