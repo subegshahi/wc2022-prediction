@@ -12,6 +12,12 @@ export const Main = () => {
           tenetur incidunt ratione sequi, fugit magnam illum itaque ipsa sint
           dolor voluptate eligendi rerum!
         </p>
+        <p>
+          Asdasasdakjsdbkasdasjdbaksdjbaksjdbaksdbkajsdbakjsbdkajsbdkajsdbakjd
+          kbasdjbkajskdakjsdbakjsdbakjsdbkajsdbkajsbdkajsdbkajsbdkajsbdkajsbda
+          sfasdasdasdasdasdasdasdadaadadadaasdasdasdasdasdaasdasdasdasdasadsas
+          adasdasdasdasdasdasdasdasdasdasdasdajfasfiaisfhiiahoshoiasfhaioiafhoa
+        </p>
 
         <p className="mt-5">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptates
