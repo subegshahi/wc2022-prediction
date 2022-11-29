@@ -13,9 +13,11 @@ export const Header = () => {
           <a className="font-semibold tracking-wide " href="#">
             Home
           </a>
+
           <a className="font-semibold tracking-wide " href="#">
             Fixtures
           </a>
+
           <a className="font-semibold tracking-wide " href="#">
             News
           </a>
