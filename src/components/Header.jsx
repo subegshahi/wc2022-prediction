@@ -20,6 +20,9 @@ export const Header = () => {
             News
           </a>
         </div>
+        <div>
+          My name us unesh
+        </div>
       </div>
     </header>
   );
