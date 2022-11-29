@@ -10,9 +10,9 @@ import "./index.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Header />
-    <Main />
-    <Footer />
+    {/* <Main /> */}
     <Login />
-    <Signup />
+    {/* <Signup /> */}
+    {/* <Footer /> */}
   </React.StrictMode>
 );

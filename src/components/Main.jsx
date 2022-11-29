@@ -3,7 +3,7 @@ import React from "react";
 export const Main = () => {
   return (
     <main>
-      <div className="container mx-auto px-32 mt-10">
+      <div className="container mx-auto px-5 mt-10 lg:px-32">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptates
           possimus iusto vero voluptatem doloribus minima officiis non ullam et
