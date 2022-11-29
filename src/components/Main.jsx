@@ -10,7 +10,7 @@ export const Main = () => {
           facere aut aliquid accusantium ipsa, cupiditate repellendus reiciendis
           aperiam provident soluta numquam! Labore provident nostrum esse
           tenetur incidunt ratione sequi, fugit magnam illum itaque ipsa sint
-          dolor voluptate eligendi rerum!
+          dolor voluptate eligendi rerum!This is new line
         </p>
         <p>
           Asdasasdakjsdbkasdasjdbaksdjbaksjdbaksdbkajsdbakjsbdkajsbdkajsdbakjd
@@ -18,6 +18,8 @@ export const Main = () => {
           sfasdasdasdasdasdasdasdadaadadadaasdasdasdasdasdaasdasdasdasdasadsas
           adasdasdasdasdasdasdasdasdasdasdasdajfasfiaisfhiiahoshoiasfhaioiafhoa
         </p>
+
+  
 
         <p className="mt-5">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptates
