@@ -4,8 +4,8 @@ import worldCup from "../assets/icons/world-cup.svg";
 export const Login = () => {
   return (
     <section className="text-gray-800 ">
-      <div className="container mx-auto px-5">
-        <div className="border rounded-lg p-10 mt-24">
+      <div className="container mx-auto px-5 lg:px-32 ">
+        <div className="border rounded-lg p-10 mt-20 ">
           <div className="flex flex-col items-center">
             <img className="w-40" src={worldCup} alt="" />
 

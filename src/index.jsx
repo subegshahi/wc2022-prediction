@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Header />
     {/* <Main /> */}
     <Login />
-    <Signup />
+    {/* <Signup /> */}
     {/* <Footer /> */}
   </React.StrictMode>
 );
