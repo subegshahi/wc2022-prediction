@@ -7,7 +7,7 @@ export const Login = () => {
       <div className="container mx-auto px-5 lg:px-32">
         <div className="border rounded-lg p-10 mt-20 ">
           <div className="flex flex-col items-center">
-            <img className="w-40" src={worldCup} alt="" />
+            {/* <img className="w-40" src={worldCup} alt="" /> */}
 
             <div className="mt-5">
               <h1 className="font-semibold text-4xl text-center">
