@@ -7,14 +7,18 @@ export const Header = () => {
       <div className="container mx-auto px-5 py-6 flex justify-between items-center lg:px-32">
         <img className="w-44" src={navLogo} alt="" />
 
-        <nav className="space-x-5">
-          <button className="border border-gray-300 rounded-md inline-block px-4 py-2">
-            Login
-          </button>
+        <nav className="space-x-10">
+          <a className="font-semibold tracking-wide" href="#">
+            Home
+          </a>
 
-          <button className="bg-primary-500 text-white rounded-md inline-block px-4 py-2 hover:bg-primary-400">
-            Sign up
-          </button>
+          <a className="font-semibold tracking-wide" href="#">
+            Fixtures
+          </a>
+
+          <a className="font-semibold tracking-wide" href="#">
+            News
+          </a>
         </nav>
       </div>
     </header>

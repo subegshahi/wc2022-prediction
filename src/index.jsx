@@ -12,7 +12,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Header />
     <Login />
     <Signup />
+<<<<<<< HEAD
     <Main />
+=======
+>>>>>>> parent of 9bb2b0a (Sign up and login updates)
     {/* <Footer /> */}
   </React.StrictMode>
 );
