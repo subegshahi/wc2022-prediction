@@ -5,8 +5,7 @@ export const Header = () => {
   return (
     <header className=" text-gray-800 border-b border-gray-200">
       <div className="container mx-auto px-5 py-6 flex justify-between items-center lg:px-32">
-        {/* <img className="w-44" src={navLogo} alt="" /> */}
-        <h1 className="font-bold text-2xl">Logo.</h1>
+        <img className="w-44" src={navLogo} alt="" />
 
         <nav className="space-x-5">
           <button className="border border-gray-300 rounded-md inline-block px-4 py-2">
