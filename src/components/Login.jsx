@@ -5,8 +5,13 @@ export const Login = () => {
   return (
     <section className="text-gray-800 ">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <div className="container mx-auto px-5 lg:px-32">
         <div className="border rounded-lg p-10 mt-20 ">
+=======
+      <div className="container mx-auto px-5">
+        <div className="border rounded-lg p-10 mt-24">
+>>>>>>> parent of 9bb2b0a (Sign up and login updates)
 =======
       <div className="container mx-auto px-5">
         <div className="border rounded-lg p-10 mt-24">
