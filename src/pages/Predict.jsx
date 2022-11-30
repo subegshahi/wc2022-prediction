@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Main = () => {
+export const Predict = () => {
   return (
     <main>
       <div className="container mx-auto px-5 mt-10 lg:px-32">
