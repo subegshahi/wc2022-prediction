@@ -10,7 +10,9 @@ import "./index.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Header />
+    {/* <Main /> */}
     <Login />
+<<<<<<< HEAD
     <Signup />
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19,6 +21,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 >>>>>>> parent of 9bb2b0a (Sign up and login updates)
 =======
 >>>>>>> parent of 9bb2b0a (Sign up and login updates)
+=======
+    {/* <Signup /> */}
+>>>>>>> parent of 284f172 (Reverted)
     {/* <Footer /> */}
   </React.StrictMode>
 );

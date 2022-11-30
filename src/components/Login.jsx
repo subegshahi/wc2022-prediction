@@ -6,7 +6,11 @@ export const Login = () => {
     <section className="text-gray-800 ">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <div className="container mx-auto px-5 lg:px-32">
+=======
+      <div className="container mx-auto px-5 lg:px-32 ">
+>>>>>>> parent of 284f172 (Reverted)
         <div className="border rounded-lg p-10 mt-20 ">
 =======
       <div className="container mx-auto px-5">
