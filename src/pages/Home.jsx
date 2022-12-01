@@ -8,38 +8,40 @@ export const Home = () => {
       <div className="container mx-auto px-5 mt-10 lg:px-32">
         <div className="border border-gray-300 rounded-md p-5">
           <form className="mt-10" action="">
-            <div className="flex justify-between p-5 mt-5">
-              <img
-                className="w-16 h-16 bg-gray-300 rounded-full object-cover object-center"
-                src={portugal}
-                alt=""
-              />
+            <div className="px-10">
+              <div className="flex justify-around p-5 mt-5">
+                <img
+                  className="w-16 h-16bg-gray-300 rounded-full object-cover object-center shadow-md"
+                  src={portugal}
+                  alt=""
+                />
 
-              <div className="w-16 h-16  rounded-full flex justify-center items-center font-semibold border ">
-                X
+                <div className="w-16 h-16 rounded-full flex justify-center items-center font-semibold border shadow-md">
+                  X
+                </div>
+
+                <img
+                  className="w-16 h-16 bg-gray-300 rounded-full object-cover object-center shadow-md"
+                  src={argentina}
+                  alt=""
+                />
               </div>
 
-              <img
-                className="w-16 h-16 bg-gray-300 rounded-full object-cover object-center"
-                src={argentina}
-                alt=""
-              />
-            </div>
+              <hr className="mt-5 border-gray-300" />
 
-            <hr className="mt-5" />
+              <div className="flex justify-around p-5 mt-5">
+                <button className="bg-red-300 text-red-700 font-semibold tracking-wider px-3 py-1 rounded-full text-center flex justify-center items-center  hover:bg-red-400 hover:text-red-900">
+                  Portugal
+                </button>
 
-            <div className="flex justify-between p-5 mt-5">
-              <button className="bg-gray-300 p-2 w-20 h-8 rounded-full text-center flex justify-center items-center">
-                W1
-              </button>
+                <button className="bg-red-300 text-red-700 font-semibold tracking-wider px-3 py-1 rounded-full text-center flex justify-center items-center  hover:bg-red-400 hover:text-red-900">
+                  Draw
+                </button>
 
-              <button className="bg-gray-300 p-2 w-20 h-8 rounded-full text-center flex justify-center items-center">
-                X
-              </button>
-
-              <button className="bg-gray-300 p-2 w-20 h-8 rounded-full text-center flex justify-center items-center">
-                W2
-              </button>
+                <button className="bg-red-300 text-red-700 font-semibold tracking-wider px-3 py-1 rounded-full text-center flex justify-center items-center  hover:bg-red-400 hover:text-red-900">
+                  Argentina
+                </button>
+              </div>
             </div>
 
             <div className="mt-10">
