@@ -1,7 +1,7 @@
 import React from "react";
 import football from "../assets/icons/football.svg";
 
-export const Signup = () => {
+export const SignUp = () => {
   return (
     <section className="text-gray-800 ">
       <div className="container mx-auto px-5">

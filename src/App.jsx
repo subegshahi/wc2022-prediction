@@ -1,18 +1,18 @@
 import React from "react";
-import { Header } from "./pages/Header";
+import { Home } from "./pages/Home";
+import { LogIn } from "./pages/LogIn";
+import { SignUp } from "./pages/SignUp";
 import { Predict } from "./pages/Predict";
-import { Login } from "./pages/Login";
-import { Signup } from "./pages/Signup";
-import { Footer } from "./pages/Footer";
+import { Header } from "./components/Header";
 
 export const App = () => {
   return (
-    <>
+    <div>
       <Header />
-      <Login />
-      <Signup />
+      <Home />
+      <LogIn />
+      <SignUp />
       <Predict />
-      <Footer />;
-    </>
+    </div>
   );
 };
