@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import navLogo from "../assets/images/chitrawan-khabar-logo.png";
 
 export const Header = () => {
@@ -8,17 +9,21 @@ export const Header = () => {
         <img className="w-44" src={navLogo} alt="" />
 
         <nav className="space-x-10">
-          <a className="font-semibold tracking-wide" href="#">
+          {/* <Link className="font-semibold tracking-wide" to="/">
             Home
-          </a>
+          </Link> */}
 
-          <a className="font-semibold tracking-wide" href="#">
-            Fixtures
-          </a>
+          {/* <Link className="font-semibold tracking-wide" to="/login">
+            Log in
+          </Link> */}
 
-          <a className="font-semibold tracking-wide" href="#">
-            News
-          </a>
+          {/* <Link className="font-semibold tracking-wide" to="/signup">
+            Sign up
+          </Link> */}
+
+          <Link className="font-semibold tracking-wide" to="/predict">
+            Predict
+          </Link>
         </nav>
       </div>
     </header>

@@ -4,7 +4,7 @@ import football from "../assets/icons/football.svg";
 export const SignUp = () => {
   return (
     <section className="text-gray-800 ">
-      <div className="container mx-auto px-5">
+      <div className="container mx-auto px-5 lg:px-32">
         <div className="border rounded-lg p-10 mt-24">
           <div className="flex flex-col items-center">
             <img className="w-40" src={football} alt="" />
