@@ -21,9 +21,9 @@ export const Header = () => {
             Sign up
           </Link> */}
 
-          <Link className="font-semibold tracking-wide" to="/predict">
+          {/* <Link className="font-semibold tracking-wide" to="/predict">
             Predict
-          </Link>
+          </Link> */}
         </nav>
       </div>
     </header>
