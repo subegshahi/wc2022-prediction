@@ -8,13 +8,28 @@ import cup from "../assets/icons/world-cup.svg";
 import calendar from "../assets/icons/calendar.svg";
 import stadium from "../assets/icons/stadium.svg";
 import wc2022Logo from "../assets/icons/wc2022-logo.svg";
+import { auth } from "../config/firebase";
 
 export const Predict = () => {
   return (
-    <main>
-      <div className="container mx-auto px-5 mt-20 lg:flex lg:px-32">
+    <main className="text-gray-800">
+      <div className="bg-gray-100 border-b border-gray-300 p-5">
+        <div className="container mx-auto lg:px-32">
+          <p className="font-semibold text-2xl">Welcome</p>
+
+          <div className="flex items-center gap-2 mt-5">
+            <img
+              src={auth.currentUser?.photoURL}
+              className="w-14 rounded-full"
+            />
+            <p className="font-bold"> {auth.currentUser?.displayName} </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="container mx-auto px-5 mt-5 lg:flex lg:px-32">
         <form
-          className="border border-gray-300 rounded-md p-10 lg:w-1/2"
+          className="border border-gray-300 rounded-md p-10 mt-10 lg:w-1/2"
           action=""
         >
           <div>
