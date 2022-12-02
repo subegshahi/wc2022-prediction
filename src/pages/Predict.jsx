@@ -13,9 +13,15 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { useForm } from "react-hook-form";
 import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
+import { addDoc, collection } from "firebase/firestore";
+import { db } from "../config/firebase";
+import { async } from "@firebase/util";
+import { useNavigate } from "react-router-dom";
 
 export const Predict = () => {
   const [user] = useAuthState(auth);
+
+  const navigate = useNavigate();
 
   const schema = yup.object().shape({
     country: yup.string().required("Country is required"),
@@ -32,8 +38,17 @@ export const Predict = () => {
     resolver: yupResolver(schema),
   });
 
-  const onSubmitForm = (data) => {
+  const submitRef = collection(db, "predict");
+
+  const onSubmitForm = async (data) => {
     console.log(data);
+    await addDoc(submitRef, {
+      ...data,
+      username: user?.displayName,
+      id: user?.uid,
+    });
+
+    navigate("/");
   };
 
   return (
