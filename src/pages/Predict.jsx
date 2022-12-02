@@ -2,6 +2,8 @@ import React from "react";
 import { FormFields } from "../components/FormFields";
 import portugal from "../assets/images/portugal-flag.png";
 import argentina from "../assets/images/argentina-flag.png";
+import netherlands from "../assets/images/netherlands-flag.jpg";
+import usa from "../assets/images/usa-flag.jpg";
 import cup from "../assets/icons/world-cup.svg";
 import calendar from "../assets/icons/calendar.svg";
 import stadium from "../assets/icons/stadium.svg";
@@ -32,7 +34,7 @@ export const Predict = () => {
                 <div className="border border-gray-300  rounded-md p-5 flex flex-col gap-5 items-center w-1/2">
                   <img
                     className="w-20 h-20 object-cover object-center rounded-full"
-                    src={portugal}
+                    src={netherlands}
                     alt=""
                   />
 
@@ -50,7 +52,7 @@ export const Predict = () => {
                 <div className="border border-gray-300 rounded-md p-5 flex flex-col gap-5 items-center w-1/2">
                   <img
                     className="w-20 h-20 object-cover object-center rounded-full"
-                    src={argentina}
+                    src={usa}
                     alt=""
                   />
 
@@ -78,6 +80,10 @@ export const Predict = () => {
                 </p>
               </div>
             </div>
+
+            <button className="bg-primary-500 text-white inline-block mt-5 w-full py-3 rounded-lg font-medium tracking-wide hover:bg-primary-400">
+              Predict
+            </button>
 
             {/* <FormFields /> */}
           </form>
