@@ -16,7 +16,7 @@ export const Home = () => {
 
   return (
     <section>
-      <div className="container mx-auto px-5 mt-20 lg:flex lg:px-32">
+      <div className="container mx-auto px-5 mt-20 items-center lg:flex lg:px-32">
         <div className="border rounded-lg p-10 mt-20 lg:w-1/2">
           <div className="flex flex-col items-center">
             <img className="w-40" src={worldCup} alt="" />

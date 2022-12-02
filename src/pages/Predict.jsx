@@ -9,20 +9,24 @@ import calendar from "../assets/icons/calendar.svg";
 import stadium from "../assets/icons/stadium.svg";
 import wc2022Logo from "../assets/icons/wc2022-logo.svg";
 import { auth } from "../config/firebase";
+import { useAuthState } from "react-firebase-hooks/auth";
 
 export const Predict = () => {
+  const [user] = useAuthState(auth);
+
   return (
     <main className="text-gray-800">
-      <div className="bg-gray-100 border-b border-gray-300 p-5">
+      <div className="bg-gray-50 border-b border-gray-300 p-5">
         <div className="container mx-auto lg:px-32">
-          <p className="font-semibold text-2xl">Welcome</p>
+          <h1 className="font-semibold text-2xl">Welcome</h1>
 
           <div className="flex items-center gap-2 mt-5">
-            <img
-              src={auth.currentUser?.photoURL}
-              className="w-14 rounded-full"
-            />
-            <p className="font-bold"> {auth.currentUser?.displayName} </p>
+            {user && (
+              <>
+                <img src={user?.photoURL} className="w-14 rounded-full" />
+                <p className="font-bold"> {user?.displayName} </p>
+              </>
+            )}
           </div>
         </div>
       </div>

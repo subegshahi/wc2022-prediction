@@ -4,6 +4,8 @@ import navLogo from "../assets/images/chitrawan-khabar-logo.png";
 import { auth, provider } from "../config/firebase";
 import { signInWithPopup } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
+import { useAuthState } from "react-firebase-hooks/auth";
+import { signOut } from "firebase/auth";
 
 export const Header = () => {
   const navigate = useNavigate();
@@ -12,6 +14,13 @@ export const Header = () => {
     const result = await signInWithPopup(auth, provider);
     console.log(result);
     navigate("/predict");
+  };
+
+  const [user] = useAuthState(auth);
+
+  const signUserOut = async () => {
+    await signOut(auth);
+    navigate("/");
   };
 
   return (
@@ -36,12 +45,27 @@ export const Header = () => {
             Log in
           </Link> */}
 
-          <button
-            onClick={signInWithGoogle}
-            className="font-semibold tracking-wide"
-          >
-            Sign in
-          </button>
+          {!user && (
+            <>
+              <button
+                onClick={signInWithGoogle}
+                className="font-semibold tracking-wide"
+              >
+                Sign in
+              </button>
+            </>
+          )}
+
+          {user && (
+            <>
+              <button
+                onClick={signUserOut}
+                className="font-semibold tracking-wide"
+              >
+                Log out
+              </button>
+            </>
+          )}
         </nav>
       </div>
     </header>
