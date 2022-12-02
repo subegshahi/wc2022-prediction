@@ -1,7 +1,5 @@
 import React from "react";
 import { FormFields } from "../components/FormFields";
-import portugal from "../assets/images/portugal-flag.png";
-import argentina from "../assets/images/argentina-flag.png";
 import netherlands from "../assets/images/netherlands-flag.jpg";
 import usa from "../assets/images/usa-flag.jpg";
 import cup from "../assets/icons/world-cup.svg";
@@ -15,7 +13,7 @@ import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { addDoc, collection } from "firebase/firestore";
 import { db } from "../config/firebase";
-import { async } from "@firebase/util";
+// import { async } from "@firebase/util";
 import { useNavigate } from "react-router-dom";
 
 export const Predict = () => {
