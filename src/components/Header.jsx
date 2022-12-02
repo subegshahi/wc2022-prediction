@@ -22,7 +22,7 @@ export const Header = () => {
           </Link> */}
 
           <Link className="font-semibold tracking-wide" to="/predict">
-            Predict
+            Log in
           </Link>
         </nav>
       </div>
