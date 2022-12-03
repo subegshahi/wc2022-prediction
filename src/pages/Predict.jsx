@@ -18,7 +18,6 @@ import { useNavigate } from "react-router-dom";
 
 export const Predict = () => {
   const [user] = useAuthState(auth);
-
   const navigate = useNavigate();
 
   const schema = yup.object().shape({
@@ -73,22 +72,25 @@ export const Predict = () => {
         >
           <div>
             <div>
-              <div className="flex items-center ">
+              <div className="flex items-center justify-center ">
                 <img className="w-10" src={cup} alt="" />
                 <p className="font-bold text-lg text-gray-800">
                   World Cup 2022 - Round of 16
                 </p>
               </div>
+
               <hr className="mt-3 border-gray-300" />
             </div>
 
-            <p className="mt-10 text-center text-3xl font-bold tracking-wide text-gray-800">
-              Who will win?
-            </p>
+            <div className="flex">
+              <p className="mt-10 text-2xl font-bold tracking-wide text-gray-800 w-1/2">
+                Who will win?
+              </p>
 
-            <p className="bg-red-300 text-red-700 font-semibold tracking-wider px-3 py-2 rounded-md text-center flex justify-center items-center mt-5">
-              Today's Prize: Rs. 1500
-            </p>
+              <p className="bg-red-300 text-red-700 text-center font-semibold tracking-wider px-3 py-2 rounded-md  flex justify-center items-center mt-5 w-1/2 ">
+                Today's Prize: Rs. 1500
+              </p>
+            </div>
 
             <div className="flex gap-5 mt-10">
               <div className="border border-gray-300  rounded-md p-5 flex flex-col gap-5 items-center w-1/2">
