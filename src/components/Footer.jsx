@@ -1,5 +1,6 @@
 import React from "react";
 import navLogo from "../assets/images/chitrawan-khabar-logo.png";
+import eplanet from "../assets/images/eplanet-logo.png";
 
 export default function Footer() {
   return (
@@ -14,7 +15,12 @@ export default function Footer() {
           <p>Email: contact@chitrawankhabar.com</p>
         </div>
 
-        <hr className="mt-10 border-gray-300" />
+        <div>
+          <p className="mt-5 font-semibold text-lg">Sponsored By:</p>
+          <img className="h-28" src={eplanet} alt="" />
+        </div>
+
+        <hr className="mt-5 border-gray-300" />
 
         <div className="mt-5 text-center">
           <p>© Copyright P.L. Multimedia Services Pvt. Ltd.</p>

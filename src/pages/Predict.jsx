@@ -1,11 +1,8 @@
 import React from "react";
 import { FormFields } from "../components/FormFields";
-import netherlands from "../assets/images/netherlands.png";
-import usa from "../assets/images/usa.png";
 import cup from "../assets/icons/world-cup.svg";
 import calendar from "../assets/icons/calendar.svg";
 import stadium from "../assets/icons/stadium.svg";
-import wc2022Logo from "../assets/icons/wc2022-logo.svg";
 import { auth } from "../config/firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useForm } from "react-hook-form";
@@ -15,6 +12,24 @@ import { addDoc, collection } from "firebase/firestore";
 import { db } from "../config/firebase";
 // import { async } from "@firebase/util";
 import { useNavigate } from "react-router-dom";
+import { TodaysMatch } from "../components/TodaysMatch";
+import gifts from "../assets/images/gifts.png";
+import argentina from "../assets/images/argentina.png";
+import australia from "../assets/images/australia.png";
+import brazil from "../assets/images/brazil.png";
+import croatia from "../assets/images/croatia.png";
+import england from "../assets/images/england.png";
+import france from "../assets/images/france.png";
+import japan from "../assets/images/japan.png";
+import morocco from "../assets/images/morocco.png";
+import netherlands from "../assets/images/netherlands.png";
+import poland from "../assets/images/poland.png";
+import portugal from "../assets/images/portugal.png";
+import senegal from "../assets/images/senegal.png";
+import southKorea from "../assets/images/south-korea.png";
+import spain from "../assets/images/spain.png";
+import swiss from "../assets/images/swiss.png";
+import usa from "../assets/images/usa.png";
 
 export const Predict = () => {
   const [user] = useAuthState(auth);
@@ -35,7 +50,7 @@ export const Predict = () => {
     resolver: yupResolver(schema),
   });
 
-  const submitRef = collection(db, "predict");
+  const submitRef = collection(db, "prediction");
 
   const onSubmitForm = async (data) => {
     console.log(data);
@@ -65,7 +80,7 @@ export const Predict = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-5 mt-5  lg:flex lg:px-32">
+      <div className="container mx-auto px-5 mt-5 lg:flex lg:px-32 lg:gap-5">
         <form
           className="bg-white shadow-sm border border-gray-300 rounded-md p-10 mt-10 lg:w-1/2"
           onSubmit={handleSubmit(onSubmitForm)}
@@ -80,50 +95,28 @@ export const Predict = () => {
               </div>
 
               <hr className="mt-3 border-gray-300" />
-            </div>
 
-            <div className="flex">
-              <p className="mt-10 text-2xl font-bold tracking-wide text-gray-800 w-1/2">
+              <p className="mt-10 text-2xl font-bold tracking-wide text-center text-gray-800 ">
                 Who will win?
               </p>
 
-              <p className="bg-red-300 text-red-700 text-center font-semibold tracking-wider px-3 py-2 rounded-md  flex justify-center items-center mt-5 w-1/2 ">
-                Today's Prize: Rs. 1500
-              </p>
-            </div>
+              {/* Match 1  */}
+              <TodaysMatch
+                matchNumber={1}
+                countryFlag1={netherlands}
+                countryName1={"Netherlands"}
+                countryFlag2={usa}
+                countryName2={"USA"}
+              />
 
-            <div className="flex gap-5 mt-10">
-              <div className="border border-gray-300  rounded-md p-5 flex flex-col gap-5 items-center w-1/2">
-                <img
-                  className="w-20 h-20 object-cover object-center rounded-full"
-                  src={netherlands}
-                  alt=""
-                />
-
-                <p className="text-lg font-semibold">Netherlands</p>
-
-                {/* <button className="bg-red-300 text-red-700 font-semibold tracking-wider px-3 py-1 rounded-full text-center flex justify-center items-center hover:bg-red-400 hover:text-red-900">
-                  Netherlands
-                </button> */}
-              </div>
-
-              {/* <div className="w-20 h-20 rounded-full flex justify-center items-center font-semibold text-xl border shadow-sm">
-                X
-              </div> */}
-
-              <div className="border border-gray-300 rounded-md p-5 flex flex-col gap-5 items-center w-1/2">
-                <img
-                  className="w-20 h-20 object-cover object-center rounded-full"
-                  src={usa}
-                  alt=""
-                />
-
-                <p className="text-lg font-semibold">USA</p>
-
-                {/* <button className="bg-red-300 text-red-700 font-semibold tracking-wider px-3 py-1 rounded-full text-center flex justify-center items-center hover:bg-red-400 hover:text-red-900">
-                  USA
-                </button> */}
-              </div>
+              {/* Match 1  */}
+              <TodaysMatch
+                matchNumber={2}
+                countryFlag1={argentina}
+                countryName1={"Argentina"}
+                countryFlag2={australia}
+                countryName2={"Australia"}
+              />
             </div>
           </div>
 
@@ -133,7 +126,7 @@ export const Predict = () => {
             <input
               className="w-full py-2 px-3 border border-gray-300 rounded-md focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500"
               type="text"
-              placeholder="Enter country name"
+              placeholder="Enter match 1 and match 2 country name"
               {...register("country")}
             />
 
@@ -203,9 +196,9 @@ export const Predict = () => {
         </form>
 
         <img
-          className="w-full aspect-auto  mt-10 lg:w-1/2 lg:-mt-5"
-          src={wc2022Logo}
-          alt=""
+          className="w-full h-1/2 mt-10 object-cover lg:w-1/2 "
+          src={gifts}
+          alt="gift"
         />
       </div>
     </main>
