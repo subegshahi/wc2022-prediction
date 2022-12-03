@@ -1,6 +1,5 @@
 {
   "name": "wc2022-prediction",
-  "homepage": "http://worldcup.chitrawankhabar.com/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
