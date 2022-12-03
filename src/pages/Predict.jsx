@@ -56,10 +56,10 @@ export const Predict = () => {
     console.log(data);
     await addDoc(submitRef, {
       ...data,
-      id: user?.uid,
-      username: user?.displayName,
       email: user?.email,
       phoneNumber: user?.phoneNumber,
+      username: user?.displayName,
+      id: user?.uid,
     });
 
     navigate("/");
