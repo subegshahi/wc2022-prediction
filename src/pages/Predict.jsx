@@ -1,7 +1,7 @@
 import React from "react";
 import { FormFields } from "../components/FormFields";
-import netherlands from "../assets/images/netherlands-flag.jpg";
-import usa from "../assets/images/usa-flag.jpg";
+import netherlands from "../assets/images/netherlands.png";
+import usa from "../assets/images/usa.png";
 import cup from "../assets/icons/world-cup.svg";
 import calendar from "../assets/icons/calendar.svg";
 import stadium from "../assets/icons/stadium.svg";
@@ -51,7 +51,7 @@ export const Predict = () => {
 
   return (
     <main className="text-gray-800">
-      <div className="bg-gray-50 border-b border-gray-300 px-5 py-3">
+      <div className="bg-white border-b border-gray-300 px-5 py-3 ">
         <div className="container mx-auto lg:px-32">
           <h1 className="font-semibold text-xl">Welcome</h1>
 
@@ -66,9 +66,9 @@ export const Predict = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-5 mt-5 lg:flex lg:px-32">
+      <div className="container mx-auto px-5 mt-5  lg:flex lg:px-32">
         <form
-          className="border border-gray-300 rounded-md p-10 mt-10 lg:w-1/2"
+          className="bg-white shadow-sm border border-gray-300 rounded-md p-10 mt-10 lg:w-1/2"
           onSubmit={handleSubmit(onSubmitForm)}
         >
           <div>
@@ -84,6 +84,10 @@ export const Predict = () => {
 
             <p className="mt-10 text-center text-3xl font-bold tracking-wide text-gray-800">
               Who will win?
+            </p>
+
+            <p className="bg-red-300 text-red-700 font-semibold tracking-wider px-3 py-2 rounded-md text-center flex justify-center items-center mt-5">
+              Today's Prize: Rs. 1500
             </p>
 
             <div className="flex gap-5 mt-10">
