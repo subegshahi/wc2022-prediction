@@ -62,7 +62,8 @@ export const Predict = () => {
       id: user?.uid,
     });
 
-    navigate("/");
+    // navigate("/")
+    alert("Prediction Submitted");
   };
 
   return (
@@ -104,20 +105,20 @@ export const Predict = () => {
 
               {/* Match 1  */}
               <TodaysMatch
-                matchNumber={1}
-                countryFlag1={netherlands}
-                countryName1={"Netherlands"}
-                countryFlag2={usa}
-                countryName2={"USA"}
+                matchPrize={"Movie Ticket"}
+                countryFlag1={japan}
+                countryName1={"Japan"}
+                countryFlag2={croatia}
+                countryName2={"Croatia"}
               />
 
-              {/* Match 1  */}
+              {/* Match 2  */}
               <TodaysMatch
-                matchNumber={2}
-                countryFlag1={argentina}
-                countryName1={"Argentina"}
-                countryFlag2={australia}
-                countryName2={"Australia"}
+                matchPrize={"Movie Ticket"}
+                countryFlag1={brazil}
+                countryName1={"Brazil"}
+                countryFlag2={southKorea}
+                countryName2={"South Korea"}
               />
             </div>
           </div>
@@ -174,17 +175,24 @@ export const Predict = () => {
           {/* <FormFields /> */}
 
           <div className="mt-10">
-            <div className="flex items-center gap-2">
+            {/* <div className="flex items-center gap-2">
               <img className="w-8" src={calendar} alt="" />
               <p className="font-semibold text-gray-500">
                 Sat, 3-Dec-2022, 8:45 PM
+              </p>
+            </div> */}
+
+            <div className="flex items-center gap-2 mt-3">
+              <img className="w-8" src={stadium} alt="" />
+              <p className="font-semibold text-gray-500">
+                Match 1: Al Janoub Stadium
               </p>
             </div>
 
             <div className="flex items-center gap-2 mt-3">
               <img className="w-8" src={stadium} alt="" />
               <p className="font-semibold text-gray-500">
-                Khalifa International Stadium
+                Match 2: Ras Abu Aboud Stadium
               </p>
             </div>
           </div>

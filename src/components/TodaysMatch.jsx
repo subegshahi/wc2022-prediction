@@ -1,7 +1,7 @@
 import React from "react";
 
 export const TodaysMatch = ({
-  matchNumber,
+  matchPrize,
   countryFlag1,
   countryName1,
   countryFlag2,
@@ -10,7 +10,7 @@ export const TodaysMatch = ({
   return (
     <div>
       <p className="bg-red-300 text-red-700 text-sm px-2 py-2  font-semibold tracking-wider rounded-md mt-5 w-full">
-        Today's Match {matchNumber} Prize: Rs. 1,500
+        Today's Match Prize: {matchPrize}
       </p>
 
       <div className="flex gap-5 mt-5">

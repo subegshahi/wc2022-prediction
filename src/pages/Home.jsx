@@ -70,21 +70,21 @@ export const Home = () => {
           </div>
 
           <div className="grid grid-cols-2 gap-5 lg:grid-cols-4">
-            <R16Schedule
+            {/* <R16Schedule
               time={"20:45, Today"}
               countryFlag1={netherlands}
               countryName1={"Netherlands"}
               countryFlag2={usa}
               countryName2={"USA"}
-            />
+            /> */}
 
-            <R16Schedule
+            {/* <R16Schedule
               time={"00:45, Tomorrow"}
               countryFlag1={argentina}
               countryName1={"Argentina"}
               countryFlag2={australia}
               countryName2={"Australia"}
-            />
+            /> */}
 
             <R16Schedule
               time={"20:45, 5th Dec"}
@@ -102,21 +102,21 @@ export const Home = () => {
               countryName2={"South-Korea"}
             />
 
-            <R16Schedule
+            {/* <R16Schedule
               time={"20:45, 4th Dec"}
               countryFlag1={france}
               countryName1={"France"}
               countryFlag2={poland}
               countryName2={"Poland"}
-            />
+            /> */}
 
-            <R16Schedule
+            {/* <R16Schedule
               time={"00:45, 5th Dec"}
               countryFlag1={england}
               countryName1={"England"}
               countryFlag2={senegal}
               countryName2={"Senegl"}
-            />
+            /> */}
 
             <R16Schedule
               time={"20:45, 6th Dec"}
