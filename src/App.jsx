@@ -12,11 +12,8 @@ export const App = () => {
     <div className="text-gray-800 bg-gray-100">
       <Router>
         <Header />
-
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/login" element={<LogIn />} /> */}
-          {/* <Route path="/signup" element={<SignUp />} /> */}
           <Route path="/predict" element={<Predict />} />
         </Routes>
 

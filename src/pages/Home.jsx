@@ -32,13 +32,19 @@ export const Home = () => {
     navigate("/predict");
   };
 
+  const navigateToNews = () => {
+    window.location.replace("https://chitrawankhabar.com/");
+  };
+
   return (
     <section className="">
       <div className="container mx-auto px-5 mt-10 items-center lg:flex lg:px-32 lg:gap-10">
-        <div className="bg-white shadow-sm border rounded-lg p-10 mt-20 lg:w-1/3">
+        <div
+          className="bg-white shadow-sm border rounded-lg p-10 mt-20 lg:w-1/3"
+          style={{ maxWidth: 600 }}
+        >
           <div className="flex flex-col items-center">
             <img className="w-40" src={worldCup} alt="" />
-
             <div className="mt-5">
               <h1 className="font-semibold text-4xl text-center">Welcome</h1>
               <h2 className="text-lg text-gray-400 mt-2 text-center">
@@ -54,7 +60,33 @@ export const Home = () => {
             Sign in with Google
           </button>
         </div>
+        <div className="bg-white shadow-sm border rounded-lg p-10 mt-20 ">
+          <div className="flex flex-col  mt-5">
+            <h1 className="font-semibold text-4xl ">Facts about worldcup</h1>
+            <h2 className="text-lg text-gray-400 mt-2 ">
+              - Almost 50% of the world's population watches the competition
+              <br></br>- England did not take part in the first three
+              tournaments
+              <br></br>- The First Women's World Cup was in 1991
+              <br></br>- There have been a total of 22 World Cups: the first was
+              in 1930 and the most recent in 2022
+              <br></br>- Brazil has one the most World Cups with five. Italy and
+              Germany are close behind with four each.
+              <br></br>- A total of 211 teams began the qualification process
+              for the 2022 World Cup
+            </h2>
+          </div>
 
+          <button
+            onClick={navigateToNews}
+            className="bg-primary-500 text-white inline-block mt-5   w-full py-3 rounded-lg font-medium tracking-wide hover:bg-primary-400"
+          >
+            Back to News
+          </button>
+        </div>
+      </div>
+
+      <div className="container mx-auto px-5 mt-10 items-center lg:flex lg:px-32 lg:gap-10">
         {/* <img className="w-full aspect-auto lg:w-1/2 " src={wc2022Logo} alt="" /> */}
 
         <div className="mt-10 ">
