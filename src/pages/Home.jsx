@@ -60,6 +60,7 @@ export const Home = () => {
             Sign in with Google
           </button>
         </div>
+
         <div className="bg-white shadow-sm border rounded-lg p-10 mt-20 ">
           <div className="flex flex-col  mt-5">
             <h1 className="font-semibold text-4xl ">Facts about worldcup</h1>
@@ -89,12 +90,15 @@ export const Home = () => {
       <div className="container mx-auto px-5 mt-10 items-center lg:flex lg:px-32 lg:gap-10">
         {/* <img className="w-full aspect-auto lg:w-1/2 " src={wc2022Logo} alt="" /> */}
 
-        <div className="mt-10 ">
+        <div className="mt-10">
           <div className="flex items-center gap-3">
             <img src={calendar} alt="" />
 
             <div>
-              <h1 className="font-bold text-2xl">Round of 16 Match Schedule</h1>
+              {/* <h1 className="font-bold text-2xl">Round of 16 Match Schedule</h1> */}
+              <h1 className="font-bold text-2xl">
+                Quarter Final Match Schedule
+              </h1>
               <h2 className="font-semibold text-gray-500">
                 All times are in Nepal Time
               </h2>
@@ -102,6 +106,40 @@ export const Home = () => {
           </div>
 
           <div className="grid grid-cols-2 gap-5 lg:grid-cols-4">
+            {/* Quatrer Final Matches */}
+            <R16Schedule
+              time={"Fri, Dec 9 2022, 20:45"}
+              countryFlag1={croatia}
+              countryName1={"Croatia"}
+              countryFlag2={brazil}
+              countryName2={"Brazil"}
+            />
+
+            <R16Schedule
+              time={"Sat, Dec 10 2022, 20:45"}
+              countryFlag1={morocco}
+              countryName1={"Morocco"}
+              countryFlag2={portugal}
+              countryName2={"Portugal"}
+            />
+
+            <R16Schedule
+              time={"Sat, Dec 10 2022, 00:45"}
+              countryFlag1={netherlands}
+              countryName1={"Netherlands"}
+              countryFlag2={argentina}
+              countryName2={"Argentina"}
+            />
+
+            <R16Schedule
+              time={"Sun, Dec 11 2022,00:45"}
+              countryFlag1={england}
+              countryName1={"England"}
+              countryFlag2={france}
+              countryName2={"France"}
+            />
+            {/* /Quatrer Final Matches */}
+
             {/* <R16Schedule
               time={"20:45, Today"}
               countryFlag1={netherlands}
@@ -118,21 +156,21 @@ export const Home = () => {
               countryName2={"Australia"}
             /> */}
 
-            <R16Schedule
+            {/* <R16Schedule
               time={"20:45, 5th Dec"}
               countryFlag1={japan}
               countryName1={"Japan"}
               countryFlag2={croatia}
               countryName2={"Croatia"}
-            />
+            /> */}
 
-            <R16Schedule
+            {/* <R16Schedule
               time={"00:45, 6th Dec"}
               countryFlag1={brazil}
               countryName1={"Brazil"}
               countryFlag2={southKorea}
               countryName2={"South-Korea"}
-            />
+            /> */}
 
             {/* <R16Schedule
               time={"20:45, 4th Dec"}
@@ -150,21 +188,21 @@ export const Home = () => {
               countryName2={"Senegl"}
             /> */}
 
-            <R16Schedule
+            {/* <R16Schedule
               time={"20:45, 6th Dec"}
               countryFlag1={morocco}
               countryName1={"Morocco"}
               countryFlag2={spain}
               countryName2={"Spain"}
-            />
+            /> */}
 
-            <R16Schedule
+            {/* <R16Schedule
               time={"00:45, 7th Dec"}
               countryFlag1={portugal}
               countryName1={"Portugal"}
               countryFlag2={swiss}
               countryName2={"Switzerland"}
-            />
+            /> */}
           </div>
         </div>
       </div>

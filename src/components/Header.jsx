@@ -24,7 +24,7 @@ export const Header = () => {
   };
 
   return (
-    <header className=" text-gray-800 border-b border-gray-300">
+    <header className=" text-gray-800 border-b border-gray-300 ">
       <div className="container mx-auto px-5 py-6 flex justify-between items-center lg:px-32">
         <img className="w-44" src={navLogo} alt="" />
 

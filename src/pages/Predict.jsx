@@ -105,20 +105,20 @@ export const Predict = () => {
 
               {/* Match 1  */}
               <TodaysMatch
-                matchPrize={"Movie Ticket"}
-                countryFlag1={japan}
-                countryName1={"Japan"}
-                countryFlag2={croatia}
-                countryName2={"Croatia"}
+                matchPrize={"Jersy"}
+                countryFlag1={croatia}
+                countryName1={"Croatia"}
+                countryFlag2={brazil}
+                countryName2={"Brazil"}
               />
 
               {/* Match 2  */}
               <TodaysMatch
-                matchPrize={"Movie Ticket"}
-                countryFlag1={brazil}
-                countryName1={"Brazil"}
-                countryFlag2={southKorea}
-                countryName2={"South Korea"}
+                matchPrize={"Jersy"}
+                countryFlag1={morocco}
+                countryName1={"Morocco"}
+                countryFlag2={portugal}
+                countryName2={"Portugal"}
               />
             </div>
           </div>
@@ -129,7 +129,7 @@ export const Predict = () => {
             <input
               className="w-full py-2 px-3 border border-gray-300 rounded-md focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500"
               type="text"
-              placeholder="Enter match 1 and match 2 country name"
+              placeholder="Enter match 1 and match 2 country names"
               {...register("country")}
             />
 
@@ -185,14 +185,14 @@ export const Predict = () => {
             <div className="flex items-center gap-2 mt-3">
               <img className="w-8" src={stadium} alt="" />
               <p className="font-semibold text-gray-500">
-                Match 1: Al Janoub Stadium
+                Match 1: Education City Stadium
               </p>
             </div>
 
             <div className="flex items-center gap-2 mt-3">
               <img className="w-8" src={stadium} alt="" />
               <p className="font-semibold text-gray-500">
-                Match 2: Ras Abu Aboud Stadium
+                Match 2: Al Thumama Stadium
               </p>
             </div>
           </div>
