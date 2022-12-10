@@ -105,20 +105,21 @@ export const Predict = () => {
 
               {/* Match 1  */}
               <TodaysMatch
-                matchPrize={"Jersy"}
-                countryFlag1={croatia}
-                countryName1={"Croatia"}
-                countryFlag2={brazil}
-                countryName2={"Brazil"}
-              />
-
-              {/* Match 2  */}
-              <TodaysMatch
-                matchPrize={"Jersy"}
+                matchPrize={"Rs 1,500  "}
                 countryFlag1={morocco}
                 countryName1={"Morocco"}
                 countryFlag2={portugal}
                 countryName2={"Portugal"}
+              />
+
+              {/* Match 2  */}
+
+              <TodaysMatch
+                matchPrize={"Rs 1,500"}
+                countryFlag1={france}
+                countryName1={"France"}
+                countryFlag2={england}
+                countryName2={"England"}
               />
             </div>
           </div>
@@ -185,14 +186,14 @@ export const Predict = () => {
             <div className="flex items-center gap-2 mt-3">
               <img className="w-8" src={stadium} alt="" />
               <p className="font-semibold text-gray-500">
-                Match 1: Education City Stadium
+                Match 1: Al Thumama Stadium
               </p>
             </div>
 
             <div className="flex items-center gap-2 mt-3">
               <img className="w-8" src={stadium} alt="" />
               <p className="font-semibold text-gray-500">
-                Match 2: Al Thumama Stadium
+                Match 2: Al Bayt Stadium
               </p>
             </div>
           </div>

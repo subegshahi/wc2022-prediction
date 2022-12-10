@@ -22,6 +22,7 @@ import spain from "../assets/images/spain.png";
 import swiss from "../assets/images/swiss.png";
 import usa from "../assets/images/usa.png";
 import calendar from "../assets/icons/calendar.svg";
+import wcSchedule from "../assets/images/wc-schedule.jpeg";
 
 export const Home = () => {
   const navigate = useNavigate();
@@ -107,13 +108,13 @@ export const Home = () => {
 
           <div className="grid grid-cols-2 gap-5 lg:grid-cols-4">
             {/* Quatrer Final Matches */}
-            <R16Schedule
+            {/* <R16Schedule
               time={"Fri, Dec 9 2022, 20:45"}
               countryFlag1={croatia}
               countryName1={"Croatia"}
               countryFlag2={brazil}
               countryName2={"Brazil"}
-            />
+            /> */}
 
             <R16Schedule
               time={"Sat, Dec 10 2022, 20:45"}
@@ -123,13 +124,13 @@ export const Home = () => {
               countryName2={"Portugal"}
             />
 
-            <R16Schedule
+            {/* <R16Schedule
               time={"Sat, Dec 10 2022, 00:45"}
               countryFlag1={netherlands}
               countryName1={"Netherlands"}
               countryFlag2={argentina}
               countryName2={"Argentina"}
-            />
+            /> */}
 
             <R16Schedule
               time={"Sun, Dec 11 2022,00:45"}
@@ -205,6 +206,10 @@ export const Home = () => {
             /> */}
           </div>
         </div>
+      </div>
+
+      <div className="  mt-10 container ml-32">
+        <img src={wcSchedule} alt="" />
       </div>
     </section>
   );
