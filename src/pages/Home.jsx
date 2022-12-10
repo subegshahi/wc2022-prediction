@@ -88,6 +88,10 @@ export const Home = () => {
         </div>
       </div>
 
+      <div className="container mx-auto mt-10 px-5 lg:px-32 ">
+        <img src={wcSchedule} alt="" />
+      </div>
+
       <div className="container mx-auto px-5 mt-10 items-center lg:flex lg:px-32 lg:gap-10">
         {/* <img className="w-full aspect-auto lg:w-1/2 " src={wc2022Logo} alt="" /> */}
 
@@ -206,10 +210,6 @@ export const Home = () => {
             /> */}
           </div>
         </div>
-      </div>
-
-      <div className="  mt-10 container ml-32">
-        <img src={wcSchedule} alt="" />
       </div>
     </section>
   );
