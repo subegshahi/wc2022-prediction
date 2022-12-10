@@ -38,7 +38,7 @@ export const Home = () => {
   };
 
   return (
-    <section className="">
+    <section>
       <div className="container mx-auto px-5 mt-10 items-center lg:flex lg:px-32 lg:gap-10">
         <div
           className="bg-white shadow-sm border rounded-lg p-10 mt-20 lg:w-1/3"
