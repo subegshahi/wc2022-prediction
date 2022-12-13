@@ -93,7 +93,7 @@ export const Predict = () => {
               <div className="flex items-center justify-center ">
                 <img className="w-10" src={cup} alt="" />
                 <p className="font-bold text-lg text-gray-800">
-                  World Cup 2022 - Round of 16
+                  World Cup 2022 - Semi-Final
                 </p>
               </div>
 
@@ -105,21 +105,21 @@ export const Predict = () => {
 
               {/* Match 1  */}
               <TodaysMatch
-                matchPrize={"Rs 1,500  "}
-                countryFlag1={morocco}
-                countryName1={"Morocco"}
-                countryFlag2={portugal}
-                countryName2={"Portugal"}
+                matchPrize={"Jersy "}
+                countryFlag1={argentina}
+                countryName1={"Argentina"}
+                countryFlag2={croatia}
+                countryName2={"Croatia"}
               />
 
               {/* Match 2  */}
 
               <TodaysMatch
-                matchPrize={"Rs 1,500"}
+                matchPrize={"Movie Ticket"}
                 countryFlag1={france}
                 countryName1={"France"}
-                countryFlag2={england}
-                countryName2={"England"}
+                countryFlag2={morocco}
+                countryName2={"Morocco"}
               />
             </div>
           </div>
@@ -186,7 +186,7 @@ export const Predict = () => {
             <div className="flex items-center gap-2 mt-3">
               <img className="w-8" src={stadium} alt="" />
               <p className="font-semibold text-gray-500">
-                Match 1: Al Thumama Stadium
+                Match 1: Lusail Iconic Stadium
               </p>
             </div>
 

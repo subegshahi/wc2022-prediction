@@ -101,9 +101,7 @@ export const Home = () => {
 
             <div>
               {/* <h1 className="font-bold text-2xl">Round of 16 Match Schedule</h1> */}
-              <h1 className="font-bold text-2xl">
-                Quarter Final Match Schedule
-              </h1>
+              <h1 className="font-bold text-2xl">Semi Final Match Schedule</h1>
               <h2 className="font-semibold text-gray-500">
                 All times are in Nepal Time
               </h2>
@@ -121,11 +119,11 @@ export const Home = () => {
             /> */}
 
             <R16Schedule
-              time={"Sat, Dec 10 2022, 20:45"}
-              countryFlag1={morocco}
-              countryName1={"Morocco"}
-              countryFlag2={portugal}
-              countryName2={"Portugal"}
+              time={"Wed, Dec 14 2022,00:45"}
+              countryFlag1={argentina}
+              countryName1={"Argentina"}
+              countryFlag2={croatia}
+              countryName2={"Croatia"}
             />
 
             {/* <R16Schedule
@@ -138,10 +136,10 @@ export const Home = () => {
 
             <R16Schedule
               time={"Sun, Dec 11 2022,00:45"}
-              countryFlag1={england}
-              countryName1={"England"}
-              countryFlag2={france}
-              countryName2={"France"}
+              countryFlag1={france}
+              countryName1={"France"}
+              countryFlag2={morocco}
+              countryName2={"Morocco"}
             />
             {/* /Quatrer Final Matches */}
 
