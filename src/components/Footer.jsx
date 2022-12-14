@@ -1,8 +1,13 @@
 import React from "react";
 import navLogo from "../assets/images/chitrawan-khabar-logo.png";
 import eplanet from "../assets/images/eplanet-logo.png";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
+  const navigateToFbPage = () => {
+    window.location.replace("https://www.facebook.com/eplanet.chitwan/");
+  };
+
   return (
     <footer className="border-t border-gray-300 mt-10">
       <div className="container mx-auto px-5 py-6 mt-5  lg:px-32">
@@ -17,7 +22,9 @@ export default function Footer() {
 
         <div>
           <p className="mt-5 font-semibold text-lg">Sponsored By:</p>
-          <img className="h-28" src={eplanet} alt="" />
+          <Link onClick={navigateToFbPage}>
+            <img className="h-28" src={eplanet} alt="" />
+          </Link>
         </div>
 
         <hr className="mt-5 border-gray-300" />

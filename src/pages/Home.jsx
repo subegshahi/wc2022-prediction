@@ -39,7 +39,7 @@ export const Home = () => {
 
   return (
     <section>
-      <div className="container mx-auto px-5 mt-10 items-center lg:flex lg:px-32 lg:gap-10">
+      <div className="container mx-auto px-5  items-center lg:flex lg:px-32 lg:gap-10">
         <div
           className="bg-white shadow-sm border rounded-lg p-10 mt-20 lg:w-1/3"
           style={{ maxWidth: 600 }}
@@ -119,7 +119,7 @@ export const Home = () => {
             /> */}
 
             <R16Schedule
-              time={"Wed, Dec 14 2022,00:45"}
+              time={"Dec 14 2022, 12:45 AM"}
               countryFlag1={argentina}
               countryName1={"Argentina"}
               countryFlag2={croatia}
@@ -135,7 +135,7 @@ export const Home = () => {
             /> */}
 
             <R16Schedule
-              time={"Sun, Dec 11 2022,00:45"}
+              time={"Dec 15, 2022, 12:45 AM"}
               countryFlag1={france}
               countryName1={"France"}
               countryFlag2={morocco}
