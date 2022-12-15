@@ -101,7 +101,9 @@ export const Home = () => {
 
             <div>
               {/* <h1 className="font-bold text-2xl">Round of 16 Match Schedule</h1> */}
-              <h1 className="font-bold text-2xl">Semi Final Match Schedule</h1>
+              <h1 className="font-bold text-2xl">
+                Bronze Final and Final Match Schedule
+              </h1>
               <h2 className="font-semibold text-gray-500">
                 All times are in Nepal Time
               </h2>
@@ -110,6 +112,23 @@ export const Home = () => {
 
           <div className="grid grid-cols-2 gap-5 lg:grid-cols-4">
             {/* Quatrer Final Matches */}
+
+            <R16Schedule
+              time={"Dec 17, 2022, 8:45 PM"}
+              countryFlag1={croatia}
+              countryName1={"Croatia"}
+              countryFlag2={morocco}
+              countryName2={"Morocco"}
+            />
+
+            <R16Schedule
+              time={"Dec 18, 2022, 8:45 PM"}
+              countryFlag1={argentina}
+              countryName1={"Argentian"}
+              countryFlag2={france}
+              countryName2={"France"}
+            />
+
             {/* <R16Schedule
               time={"Fri, Dec 9 2022, 20:45"}
               countryFlag1={croatia}
@@ -117,14 +136,6 @@ export const Home = () => {
               countryFlag2={brazil}
               countryName2={"Brazil"}
             /> */}
-
-            <R16Schedule
-              time={"Dec 14 2022, 12:45 AM"}
-              countryFlag1={argentina}
-              countryName1={"Argentina"}
-              countryFlag2={croatia}
-              countryName2={"Croatia"}
-            />
 
             {/* <R16Schedule
               time={"Sat, Dec 10 2022, 00:45"}
@@ -134,13 +145,6 @@ export const Home = () => {
               countryName2={"Argentina"}
             /> */}
 
-            <R16Schedule
-              time={"Dec 15, 2022, 12:45 AM"}
-              countryFlag1={france}
-              countryName1={"France"}
-              countryFlag2={morocco}
-              countryName2={"Morocco"}
-            />
             {/* /Quatrer Final Matches */}
 
             {/* <R16Schedule

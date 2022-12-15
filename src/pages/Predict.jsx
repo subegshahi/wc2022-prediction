@@ -93,7 +93,7 @@ export const Predict = () => {
               <div className="flex items-center justify-center ">
                 <img className="w-10" src={cup} alt="" />
                 <p className="font-bold text-lg text-gray-800">
-                  World Cup 2022 - Semi-Final
+                  World Cup 2022 - Bronze Final and Final
                 </p>
               </div>
 
@@ -105,21 +105,21 @@ export const Predict = () => {
 
               {/* Match 1  */}
               <TodaysMatch
-                matchPrize={"Jersy "}
-                countryFlag1={argentina}
-                countryName1={"Argentina"}
-                countryFlag2={croatia}
-                countryName2={"Croatia"}
+                matchPrize={"Rs. 1,500"}
+                countryFlag1={croatia}
+                countryName1={"croatia"}
+                countryFlag2={morocco}
+                countryName2={"Morocco"}
               />
 
               {/* Match 2  */}
 
               <TodaysMatch
-                matchPrize={"Movie Ticket"}
-                countryFlag1={france}
-                countryName1={"France"}
-                countryFlag2={morocco}
-                countryName2={"Morocco"}
+                matchPrize={"Rs. 1,500"}
+                countryFlag1={argentina}
+                countryName1={"Argentina"}
+                countryFlag2={france}
+                countryName2={"France"}
               />
             </div>
           </div>
@@ -186,14 +186,14 @@ export const Predict = () => {
             <div className="flex items-center gap-2 mt-3">
               <img className="w-8" src={stadium} alt="" />
               <p className="font-semibold text-gray-500">
-                Match 1: Lusail Iconic Stadium
+                Match 1: Khalifa International Stadium
               </p>
             </div>
 
             <div className="flex items-center gap-2 mt-3">
               <img className="w-8" src={stadium} alt="" />
               <p className="font-semibold text-gray-500">
-                Match 2: Al Bayt Stadium
+                Match 2: Lusail Stadium
               </p>
             </div>
           </div>
