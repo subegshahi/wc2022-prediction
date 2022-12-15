@@ -22,7 +22,7 @@ import spain from "../assets/images/spain.png";
 import swiss from "../assets/images/swiss.png";
 import usa from "../assets/images/usa.png";
 import calendar from "../assets/icons/calendar.svg";
-import wcSchedule from "../assets/images/wc-schedule.jpeg";
+import wcSchedule from "../assets/images/wc-schedule.png";
 
 export const Home = () => {
   const navigate = useNavigate();
