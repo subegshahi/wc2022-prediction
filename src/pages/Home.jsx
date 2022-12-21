@@ -23,6 +23,9 @@ import swiss from "../assets/images/swiss.png";
 import usa from "../assets/images/usa.png";
 import calendar from "../assets/icons/calendar.svg";
 import wcSchedule from "../assets/images/wc-schedule.png";
+import mbappe from "../assets/images/mbappe.png";
+import griezmann from "../assets/images/griezmann.png";
+import martinez from "../assets/images/martinez.png";
 
 export const Home = () => {
   const navigate = useNavigate();
@@ -47,24 +50,27 @@ export const Home = () => {
           <div className="flex flex-col items-center">
             <img className="w-40" src={worldCup} alt="" />
             <div className="mt-5">
-              <h1 className="font-semibold text-4xl text-center">Welcome</h1>
+              <h1 className="font-semibold text-4xl text-center">Thank you!</h1>
               <h2 className="text-lg text-gray-400 mt-2 text-center">
-                Welcome! Please sign in with google account to continue.
+                Thank you for participting in FIFA World Cup 2022 prediction
+                game.
               </h2>
             </div>
           </div>
 
-          <button
+          {/* <button
             onClick={signInWithGoogle}
             className="bg-primary-500 text-white inline-block mt-5   w-full py-3 rounded-lg font-medium tracking-wide hover:bg-primary-400"
           >
             Sign in with Google
-          </button>
+          </button> */}
         </div>
 
-        <div className="bg-white shadow-sm border rounded-lg p-10 mt-20 ">
-          <div className="flex flex-col  mt-5">
-            <h1 className="font-semibold text-4xl ">Facts about worldcup</h1>
+        <div className="bg-white shadow-sm border rounded-lg p-10 mt-10 ">
+          <div className="flex flex-col mt-5">
+            <h1 className="font-semibold text-4xl ">
+              Facts about FIFA World Cup
+            </h1>
             <h2 className="text-lg text-gray-400 mt-2 ">
               - Almost 50% of the world's population watches the competition
               <br></br>- England did not take part in the first three
@@ -88,8 +94,87 @@ export const Home = () => {
         </div>
       </div>
 
-      <div className="container mx-auto mt-10 px-5 lg:px-32 ">
-        <img src={wcSchedule} alt="" />
+      <div className="container mx-auto px-5 mt-10 lg:flex justify-between items-center lg:px-32 lg:gap-5">
+        <div className=" justify-between bg-white p-5 rounded-xl shadow-md lg:mt-5">
+          <h1 className="font-semibold text-2xl">Winner</h1>
+          <hr className="mt-5" />
+
+          <div className="flex justify-between items-center gap-10">
+            <div>
+              <p className="mt-2 font-semibold text-xl">Argentina</p>
+            </div>
+
+            <img
+              className="w-24 h-24 object-cover rounded-full mt-5"
+              src={argentina}
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div className=" justify-between bg-white p-5 rounded-xl shadow-md mt-5">
+          <h1 className="font-semibold text-2xl">Top Scorer</h1>
+          <hr className="mt-5" />
+
+          <div className="flex justify-between items-center gap-10">
+            <div>
+              <p className="mt-2 font-semibold text-xl">Kylian Mbappé</p>
+              <p className="mt-2 text-lg text-gray-400 font-semibold">France</p>
+            </div>
+
+            <img
+              className="w-24 h-24 object-cover rounded-full mt-5"
+              src={mbappe}
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div className=" justify-between bg-white p-5 rounded-xl shadow-md mt-5">
+          <h1 className="font-semibold text-2xl">Assists</h1>
+          <hr className="mt-5" />
+
+          <div className="flex justify-between items-center gap-10">
+            <div>
+              <p className="mt-2 font-semibold text-xl">Antoine Griezmann</p>
+              <p className="mt-2 text-lg text-gray-400 font-semibold">France</p>
+            </div>
+
+            <img
+              className="w-24 h-24 object-cover rounded-full mt-5"
+              src={griezmann}
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div className=" justify-between bg-white p-5 rounded-xl shadow-md mt-5">
+          <h1 className="font-semibold text-2xl">Clean sheets</h1>
+          <hr className="mt-5" />
+
+          <div className="flex justify-between items-center">
+            <div>
+              <p className="mt-2 font-semibold text-xl">Emiliano Martinez</p>
+              <p className="mt-2 text-lg text-gray-400 font-semibold">
+                Argentina
+              </p>
+            </div>
+
+            <img
+              className="w-24 h-24 object-cover rounded-full mt-5"
+              src={martinez}
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div className="container mx-auto mt-20 px-5 lg:px-32 ">
+        <img
+          className="rounded-xl shadow-sm border border-gray-300"
+          src={wcSchedule}
+          alt=""
+        />
       </div>
 
       <div className="container mx-auto px-5 mt-10 items-center lg:flex lg:px-32 lg:gap-10">
@@ -97,23 +182,24 @@ export const Home = () => {
 
         <div className="mt-10">
           <div className="flex items-center gap-3">
-            <img src={calendar} alt="" />
+            {/* <img src={calendar} alt="" /> */}
 
             <div>
               {/* <h1 className="font-bold text-2xl">Round of 16 Match Schedule</h1> */}
-              <h1 className="font-bold text-2xl">
+              {/* <h1 className="font-bold text-2xl">
                 Bronze Final and Final Match Schedule
-              </h1>
-              <h2 className="font-semibold text-gray-500">
+              </h1> */}
+
+              {/* <h2 className="font-semibold text-gray-500">
                 All times are in Nepal Time
-              </h2>
+              </h2> */}
             </div>
           </div>
 
           <div className="grid grid-cols-2 gap-5 lg:grid-cols-4">
             {/* Quatrer Final Matches */}
 
-            <R16Schedule
+            {/* <R16Schedule
               time={"Dec 17, 2022, 8:45 PM"}
               countryFlag1={croatia}
               countryName1={"Croatia"}
@@ -127,7 +213,7 @@ export const Home = () => {
               countryName1={"Argentian"}
               countryFlag2={france}
               countryName2={"France"}
-            />
+            /> */}
 
             {/* <R16Schedule
               time={"Fri, Dec 9 2022, 20:45"}

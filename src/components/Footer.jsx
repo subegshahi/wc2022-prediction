@@ -9,7 +9,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="border-t border-gray-300 mt-10">
+    <footer className="border-t border-gray-300 mt-5">
       <div className="container mx-auto px-5 py-6 mt-5  lg:px-32">
         <div className="space-y-2">
           <img className="w-44" src={navLogo} alt="" />

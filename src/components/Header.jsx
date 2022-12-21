@@ -45,7 +45,7 @@ export const Header = () => {
             Log in
           </Link> */}
 
-          {!user && (
+          {/* {!user && (
             <>
               <button
                 onClick={signInWithGoogle}
@@ -54,7 +54,7 @@ export const Header = () => {
                 Sign in
               </button>
             </>
-          )}
+          )} */}
 
           {user && (
             <>
