@@ -19,7 +19,7 @@ The FIFA World Cup 2022 Prediction App is a web application built using **React*
 
 ## Application Screenshots
 ![Screenshot 2023-06-02 100950](https://github.com/subegshahi/wc2022-prediction/assets/84019079/a510df12-1252-4c95-9ec0-5fd6f41e5e85)
-![Screenshot 2023-06-02 101015](https://github.com/subegshahi/wc2022-prediction/assets/84019079/29718c1c-b5e0-4200-8686-1e2a09202bff)
+![Screenshot 2023-06-02 101015](https://github.com/subegshahi/wc2022-prediction/assets/84019079/1b10bb9f-876d-430e-9444-7842c343f1c9)
 
 ## Technologies Used
 
