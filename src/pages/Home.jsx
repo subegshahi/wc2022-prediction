@@ -52,8 +52,7 @@ export const Home = () => {
             <div className="mt-5">
               <h1 className="font-semibold text-4xl text-center">Thank you!</h1>
               <h2 className="text-lg text-gray-400 mt-2 text-center">
-                Thank you for participting in FIFA World Cup 2022 prediction
-                game.
+                Thank you for participting in FIFA World Cup 2022 prediction game.
               </h2>
             </div>
           </div>
@@ -68,20 +67,17 @@ export const Home = () => {
 
         <div className="bg-white shadow-sm border rounded-lg p-10 mt-10 ">
           <div className="flex flex-col mt-5">
-            <h1 className="font-semibold text-4xl ">
-              Facts about FIFA World Cup
-            </h1>
+            <h1 className="font-semibold text-4xl ">Facts about FIFA World Cup</h1>
             <h2 className="text-lg text-gray-400 mt-2 ">
               - Almost 50% of the world's population watches the competition
-              <br></br>- England did not take part in the first three
-              tournaments
+              <br></br>- England did not take part in the first three tournaments
               <br></br>- The First Women's World Cup was in 1991
-              <br></br>- There have been a total of 22 World Cups: the first was
-              in 1930 and the most recent in 2022
-              <br></br>- Brazil has one the most World Cups with five. Italy and
-              Germany are close behind with four each.
-              <br></br>- A total of 211 teams began the qualification process
-              for the 2022 World Cup
+              <br></br>- There have been a total of 22 World Cups: the first was in 1930
+              and the most recent in 2022
+              <br></br>- Brazil has one the most World Cups with five. Italy and Germany
+              are close behind with four each.
+              <br></br>- A total of 211 teams began the qualification process for the 2022
+              World Cup
             </h2>
           </div>
 
@@ -155,9 +151,7 @@ export const Home = () => {
           <div className="flex justify-between items-center">
             <div>
               <p className="mt-2 font-semibold text-xl">Emiliano Martinez</p>
-              <p className="mt-2 text-lg text-gray-400 font-semibold">
-                Argentina
-              </p>
+              <p className="mt-2 text-lg text-gray-400 font-semibold">Argentina</p>
             </div>
 
             <img

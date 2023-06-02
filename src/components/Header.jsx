@@ -35,33 +35,27 @@ export const Header = () => {
 
           {/* <Link className="font-semibold tracking-wide" to="/login">
             Log in
-          </Link> */}
+          </Link>
 
-          {/* <Link className="font-semibold tracking-wide" to="/signup">
+          <Link className="font-semibold tracking-wide" to="/signup">
             Sign up
-          </Link> */}
+          </Link>
 
-          {/* <Link className="font-semibold tracking-wide" to="/predict">
+          <Link className="font-semibold tracking-wide" to="/predict">
             Log in
           </Link> */}
 
-          {/* {!user && (
+          {!user && (
             <>
-              <button
-                onClick={signInWithGoogle}
-                className="font-semibold tracking-wide"
-              >
+              <button onClick={signInWithGoogle} className="font-semibold tracking-wide">
                 Sign in
               </button>
             </>
-          )} */}
+          )}
 
           {user && (
             <>
-              <button
-                onClick={signUserOut}
-                className="font-semibold tracking-wide"
-              >
+              <button onClick={signUserOut} className="font-semibold tracking-wide">
                 Log out
               </button>
             </>
