@@ -18,8 +18,8 @@ The FIFA World Cup 2022 Prediction App is a web application built using **React*
    - Authentication is handled securely by **Firebase Authentication**.
 
 ## Application Screenshots
-![Screenshot 2023-06-02 093918](https://github.com/subegshahi/wc2022-prediction/assets/84019079/993bae6c-7a3d-48e4-a794-5de2ac549961)
-![Screenshot 2023-06-02 093747](https://github.com/subegshahi/wc2022-prediction/assets/84019079/dbbbd120-7337-4451-a389-896dae18a27a)
+![Screenshot 2023-06-02 100950](https://github.com/subegshahi/wc2022-prediction/assets/84019079/a510df12-1252-4c95-9ec0-5fd6f41e5e85)
+![Screenshot 2023-06-02 101015](https://github.com/subegshahi/wc2022-prediction/assets/84019079/29718c1c-b5e0-4200-8686-1e2a09202bff)
 
 ## Technologies Used
 
